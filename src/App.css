@@ -55,3 +55,43 @@
   height: 29.479vw;
   margin-top: 3.958vw;
 }
+
+.pc {
+  display: block;
+}
+
+.mb{
+  display: none;
+}
+
+@media(max-width: 720px) {
+  .pc{
+    display: none;
+  }
+  .mb{
+    display: block;
+    width: 24.323vw;
+  }
+  .container{
+    width: 31.25vw;
+    height: 57.292vw;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .description{
+    height: 8.021vw;
+    margin-top: 2.188vw;
+  }
+  .image img{
+    width: 20.573vw;
+    height: 29.479vw;
+  }
+  .subtitle{
+    margin-top: 0.885vw;
+  }
+  .title{
+    margin-top: 2.188vw;
+  }
+}
